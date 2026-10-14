@@ -1,0 +1,7 @@
+oasis:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('DBT_DUCKDB_PATH', '/opt/airflow/data/warehouse/analytics.duckdb') }}"
+      threads: 1   # DuckDB allows a single writer

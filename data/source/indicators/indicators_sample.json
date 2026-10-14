@@ -1,0 +1,45 @@
+[
+  {
+    "id": "3.2.TheilInd1",
+    "name": "Theil Index, GE(1),Urban",
+    "unit": "",
+    "source": {
+      "id": "37",
+      "value": "LAC Equity Lab"
+    },
+    "sourceNote": " The Theil index is part of a larger family of measures referred to as the General Entropy class. Compared to the Gini index, it has the advantage of being additive across different subgroups or regions in the country. However, it does not have a straightforward representation and lacks the appealing interpretation of the Gini coefficient. ",
+    "sourceOrganization": "LAC Equity Lab tabulations of SEDLAC (CEDLAS and the World Bank).",
+    "topics": [
+      {
+        "id": "11",
+        "value": "Poverty "
+      }
+    ]
+  },
+  {
+    "id": "3.2_PRI.STUDENTS",
+    "name": "Primary education, pupils, national source",
+    "unit": "",
+    "source": {
+      "id": "34",
+      "value": "Global Partnership for Education"
+    },
+    "sourceNote": "Total population of pupils in primary school, regardless of age. Country-specific definition, method and targets are determined by countries themselves. ",
+    "sourceOrganization": "Data were collected from national and other publicly available sources, and validated by the Local Education Group (LEG) in each country. LEGs are typically led by the Ministry of Education and include development partners and other education stakeholders. Data were not processed or analyzed by the Global Partnership for Education. It is reported as it was presented in the original sources, or as it was communicated to us through the Coordinating Agency or Lead Donor of the LEG.",
+    "topics": []
+  },
+  {
+    "id": "5.1.13_AFG.TOTA.AID.WB",
+    "name": "International aid disbursed to total education, World Bank to Afghanistan (USD million)",
+    "unit": "",
+    "source": {
+      "id": "34",
+      "value": "Global Partnership for Education"
+    },
+    "sourceNote": "International concessional aid disbursed by the reporting development partner to the total education sector in the specific developing country. Targets indicate scheduled or projected aid. Accounted aid includes activities, projects, technical cooperation and sector and budget support (20%), as it was reported by the donor to the Global Partnership for Education.",
+    "sourceOrganization": "The 2011 Monitoring Exercise on Aid Effectiveness in the Education Sector was produced by the Global Partnership for Education in parallel to the OECD’s 2011 Survey on Monitoring the Paris Declaration. Through this exercise participating donors reported on the international aid allocated and projected to specific developing countries. Data were later validated and\\/or updated when preparing the GPE Results Report in 2012. Most of the figures were reported in 2011 and in USD. When it was not the case, currencies were converted to USD. Data are relative to a calendar year, unless it is specified otherwise in the country notes. For further details in this 2012 Monitoring Exercise, please refer to the following web site: http:\\/\\/www.globalpartnership.org\\/our-work\\/areas-of-focus\\/aid-effectiveness\\/2011-monitoring-exercise-on-aid-effectiveness-2\\/",
+    "topics": [
+      {}
+    ]
+  }
+]

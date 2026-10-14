@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+logs/*
+!logs/.gitkeep
+data/landing/*
+!data/landing/.gitkeep
+data/warehouse/*
+!data/warehouse/.gitkeep
+__pycache__/
+*.pyc
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+.DS_Store

@@ -1,0 +1,10 @@
+# Local overrides: UI and RustFS console bound to localhost only.
+services:
+  airflow-apiserver:
+    ports: !override
+      - "127.0.0.1:${AIRFLOW_PORT:-8080}:8080"
+
+  rustfs:
+    ports: !override
+      - "127.0.0.1:9000:9000"
+      - "127.0.0.1:9001:9001"

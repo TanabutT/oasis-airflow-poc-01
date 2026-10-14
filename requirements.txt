@@ -1,0 +1,11 @@
+# Installed on top of the Airflow image with the official constraints file (see Dockerfile).
+apache-airflow-providers-postgres
+apache-airflow-providers-standard
+apache-airflow-providers-docker
+polars
+fastexcel
+httpx
+# Keep duckdb equal to the version in dbt/Dockerfile: both read/write the same .duckdb file.
+duckdb==1.5.6
+pyiceberg[s3fs,sql-postgres]
+pyarrow

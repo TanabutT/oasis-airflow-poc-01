@@ -1,0 +1,17 @@
+name: oasis
+version: "1.0.0"
+config-version: 2
+profile: oasis
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+
+vars:
+  landing_dir: "/opt/airflow/data/landing"
+
+models:
+  oasis:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

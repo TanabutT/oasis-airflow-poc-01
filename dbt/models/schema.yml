@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_sales
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+      - name: order_date
+        tests:
+          - not_null
+
+  - name: mart_daily_sales
+    columns:
+      - name: order_date
+        tests:
+          - not_null
+      - name: revenue
+        tests:
+          - not_null
